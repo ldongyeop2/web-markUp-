@@ -1,0 +1,175 @@
+.container {
+  margin:0 auto;
+  width:1280px;
+  overflow: hidden;
+
+}
+.container::after{
+  overflow: auto;
+}
+
+.bottomHeader {  width:100%; height:517px; padding:40px 0px;}
+.headerLeft {  width:50%; height:100%; float:left;}
+.title {  width:520px; margin-top: 0px; color:white;}
+.smallTitle { font-size: 18px; font-weight: bold; margin-bottom: 10px;}
+.bigTitle { font-size: 80px; font-weight: bold; margin-bottom: 40px;}
+.titleInfo { font-weight: bold; font-size: 17px; margin-bottom: 90px; line-height: 25px;}
+.titleButton { width:60px; height: 60px; border:1px solid white; border-radius: 50%; color:white; background: unset; margin-right: 15px; font-size: 23px;}
+.titleButton:hover { background: white; color:black;}
+.headerRight {  width:50%; height:100%;float:left;}
+.headerNews {  background: white; width:410px; height: 410px; float:right; margin-top: 50px; border-radius: 7%; padding: 25px; }
+.newsThings:hover { cursor:pointer; text-decoration: underline;}
+
+.newsTitle { font-size: 17px; font-weight: bold; margin-bottom:20px; }
+.newsInfo { font-size: 14px; margin-bottom: 20px; color: rgb(53, 52, 52)}
+.more { border:1px solid gray; width:150px; height: 30px; font-size:14px; text-align: center; line-height: 30px; margin-bottom: 30px;}
+.newsPhoto {  width:360px; height:210px;}
+.photo { width:360px; height:210px;}
+.newsButton { width:45px; height: 45px; float:right; position:relative; left:27px; bottom:15px; background: #091A7A; border:none; color:white;}
+.newsButton2 { width:45px; height: 45px; float:right; position:relative; left:27px; bottom:15px; background: #142dbb; border:none; color:white; font-size: 15px;}
+
+
+
+
+section {  width:100%; height: 2350px; }
+section .container { height: 97%;}
+.announcement { width:100%; height:540px; overflow: hidden;}
+.announLeft {  width:600px; height:450px; float:left; margin-top: 50px; overflow: hidden; margin-right:30px;}
+.announLeft .abb li {margin-top: 20px; text-align: left; font-size: 14px;}
+.abbb {margin-top:20px;}
+
+.anList { width:530px; height:50px; float:left; }
+.anList ul li{ float:left; font-size:21px; padding:13px; margin-right: 10px; border-top-left-radius: 30%; border-bottom-right-radius: 30%;}
+.anList ul li:hover {
+  font-weight: bold;
+  transition-duration:0.3s;
+  color:white; 
+  background-color:#091A7A; }
+.moreIcon{ width:60px; height:60px;}
+.mainAnnounce{ width:500px; height:80px; float:left; margin-top:10px; margin-left: 10px;}
+.mainAnnounce:hover{text-decoration: underline;}
+.info { margin-top:25px;}
+.today { width:80px; height:80px; float:left; border: 3px solid rgb(173, 171, 171); margin-top:10px;}
+.month { font-size: 30px; font-weight: bold; text-align: center; margin-top: 10px;}
+.yearAndDay { text-align: center;}
+.announceList { width:460px; height:200px; float:left; margin-top: 40px;}
+.announceList ul { list-style: inside; font-size:14px;}
+.announceList ul li { margin-bottom: 20px;}
+.announceList ul li a:hover{text-decoration: underline; }
+.announceDate { float:left; width:130px; height: 200px;  margin-top: 40px; margin-left: 45px;}
+.announceDate ul li { margin-bottom: 22px; font-size: 14px; }
+.announRight {  width:50%; height:450px; float:left; margin-top:50px; overflow: hidden;}
+.advertiser { width:305px; height:370px; border:1px solid rgb(197, 195, 195); float:left; overflow: hidden; }
+.advertiser a:hover{text-decoration: underline;}
+.advertiser:first-child { margin-right:25px;}
+.advertiserPhoto {width:303px; height:260px; border:1px solid rgb(197, 195, 195);}
+.advertiserinfo { width:303px; height:108px; border:1px solid rgb(197, 195, 195); padding:20px;}
+.popups { margin-top:25px; margin-left: 10px; float: left; }
+.buttons { margin-top:20px; float:right;}
+.left{ border:none; width:30px; height: 30px; background: none;}
+.right{ border:none; width:30px; height: 30px; background: none;}
+.go{ border:none; width:30px; height: 30px; background: none;}
+.stop{ border:none; width:30px; height: 30px; background: none;}
+
+
+
+
+
+
+
+
+.event {  width:100%; height:645px; overflow: hidden; background-color:rgb(235, 235, 235) ;}
+.event .container { height:95%;}
+.rightContainer{ width:600px; height:529px; float:left; margin-right: 50px;}
+.eventHeader {  width:98%; height:50px; margin-top: 15px; margin-bottom: 15px;}
+.eventHeader .anList ul li{color:white; background-color:#091A7A;overflow: hidden;}
+.eventIcon{ width:50px; height: 50px; float:right; overflow: hidden;}
+.mainEvent{ width:600px; height:350px; margin-bottom: 15px;overflow: hidden;}
+.forum { width :70px; height:30px; background-color:#091A7A; color:white; padding:9px; line-height: 10px; font-size: 13px; font-weight: bold; margin-bottom: 15px; overflow: hidden;}
+.forumInfo {width:580px; height:70px;overflow: hidden;float:left; }
+.forumInfo p {margin-top:15px; overflow: hidden; float:left; color:gray;}
+.forumInfo strong:hover {text-decoration: underline; cursor:pointer}
+.leftContainer {  width:600px; height:529px; float:left; overflow: hidden;}
+.subEvents {width:598px; height:160px;  margin-bottom:20px;}
+.subEvent {width:250px; height:160px; margin-right: 20px; float:left;}
+.subEventInfo {width:325px; height:160px;  float:left; padding:10px;}
+.subEventInfo p { margin-top: 15px; margin-bottom: 15px; color:gray;}
+.subEventInfo strong:hover {text-decoration: underline; cursor:pointer; }
+
+.introAndReport {  width:100%; height:1160px;}
+.introHeader{  width:100%; height:50px; margin-top: 15px; margin-bottom: 15px;}
+.mainBrief { width:100%; height:480px; padding:20px;}
+.briefing { width:100%; height:460px;}
+.brfMenu { width:210px; height:460px; float:left; margin-right: 50px;}
+.brfMenu ul li{font-size:19px; padding: 17px 0px 17px 0px; border-bottom: 1px solid rgb(221, 215, 215);}
+.brfMenu .first {border-bottom: 3px solid navy; font-weight: bold; color: navy;}
+.brfMenu ul li a {width:180px;}
+.each:hover {text-decoration: underline;}
+span {float:right;}
+.brief {  width:920px; height:400px; float:left;}
+.brief a:hover {text-decoration: underline;}
+.briefs {  width:210px; height:400px; float:left; margin-left: 26px;}
+.briefs:first-child{margin-left: 0px;}
+.brief1 {width:210px; height:310px; }
+.briefName { width:210px; height:60px; margin-top:30px; line-height: 30px;}
+.briefImg {width:210px; height:310px;}
+.introduce {width:100%; height: 630px; }
+.itrHeader {font-size: 35px;width:100%; height:40px; text-align: center; margin-top: 60px; margin-bottom: 30px;}
+.report {border:6px solid rgb(231, 228, 228); width:400px; height:420px;float:left; margin-right: 20px; padding:40px; overflow:hidden;}
+.report1 {border-bottom:1px dashed gray; width:310px; height:165px; overflow:hidden;}
+.report1 .look {font-size: 15px; color:gray; margin-top:25px;}
+.report2 .look {font-size: 15px; color:gray; margin-top:25px;}
+.look:hover{text-decoration:underline; cursor:pointer}
+.report1 p {font-size: 30px; font-weight: bold;}
+.report1 p:nth-child(3) { color:navy;}
+.report2 p {font-size: 30px; font-weight: bold;}
+.report2 p:nth-child(2) {color:orangered;}
+.report2 { width:310px; height:165px; padding:50px 0px 0px 0px;}
+.mp4{border:1px solid rgb(231, 228, 228); width:400px; height:300px; float:left; padding:20px}
+.organization{border:6px solid rgb(231, 228, 228); width:400px; height:300px; margin-left:20px; float:left; margin-bottom: 20px; padding:20px; overflow: hidden;}
+
+.orgaHeader{font-size: 20px; font-weight: bold; margin-bottom: 15px;}
+.orga span{float:left; font-size: 14px;}
+.orga li span:first-child{font-size: 17px; width:100%; font-weight: bold;}
+.orga li span:first-child::before{
+  margin-right: 10px;
+  content:"·";
+}
+.orgali {margin-bottom: 20px;}
+.orgali .first a:hover{text-decoration:underline;}
+.orgali span:nth-child(n+2) { margin-left: 10px;}
+.orgali span:last-child::before{
+  content:"│";
+}
+.first {margin-top: 20px; margin-bottom: 10px;}
+.orgaHeader .eventIcon {width:30px; height:30px;}
+
+
+.digitalPaper{border:1px solid rgb(231, 228, 228); width:400px; height:100px; 
+  float:left; margin-right:20px;
+  background: navy;
+  color:white; font-weight: bold; font-size: 20px; }
+.digitalPaper span{ float: left;}
+.digitalIcon { margin-top:10px;}
+.digitalTitle {margin-left: 30px; line-height: 110px;}
+.digitalPaper :hover{text-decoration:underline; cursor: pointer;}
+.faceAyou{border:6px solid rgb(231, 228, 228); width:400px; height:100px; float:left;}
+.face{width: 190px; height:90px; ; font-weight: 900; float:left;}
+.face a{line-height: 80px; margin-left: 10px;}
+.facebutton{
+  border: 2px solid;
+  width:50px;height: 50px;  border-color: navy;
+  background: none; border-radius: 50%;
+  margin-top: 15px; margin-left: 20px; float:left;
+}
+.facebutton:hover{ transition: 0.5s; background: navy;}
+.you{width:191px; height:90px; font-weight: 900; float:left;}
+.you a{line-height: 80px;}
+.youbutton{border: 2px solid red;
+  width:50px;height: 50px;  margin-left: 10px; 
+  margin-right:10px; border-color: red;
+  background: none; border-radius: 50%;
+  margin-top: 15px; float:left;}
+.youbutton:hover{ transition: 0.5s; background: red;}
+.face a:hover .facebutton{ background: navy;}
+.you a:hover .youbutton{background: red;}

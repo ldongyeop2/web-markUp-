@@ -1,0 +1,143 @@
+header { width:100%; height:350px; overflow: hidden;}
+section{ width:100%; height:1250px;}
+.topFooter .container{ height:110px; padding:10px 0px 0px 0px;}
+h1 {font-size: 100%;}
+h2{font-size: 160%;}
+h3{font-size:150%;}
+h4{font-size:110%;}
+section .container {
+  margin:0 auto;
+  width:1280px;
+  padding:60px 0px;
+}
+.none {display:none;}
+.iconImg {width:70px; height:70px;}
+.topHeader {border-bottom: 1px solid gray;}
+.bottomHeader { width:100%; height:220px; padding:50px 0px; color:white; text-align: center; background-image: url("img/img1.jpg");}
+.subTitle { margin-bottom: 70px; font-weight: bold;}
+.sideMenu { width:300px; height:100%; float:left; margin-right: 60px; position:relative;}
+.mainContent { width:900px; height:100%; float: left;}
+.firTitle { font-weight: bold; text-align: left; line-height: 50px;}
+.firstTitle {display: inline-block;}
+.contentbox { display: inline-block; margin:18px 20px 0px 0px; float:right; font-size: 13px;}
+.contentTitle {border-bottom:1px solid gray; padding-bottom: 20px;}
+.contentTitle ul li {display:inline-block;}
+.contentTitle{
+  overflow: hidden
+}
+.contentbox ul li::after {
+ content:">";
+ margin:0px 0px 0px 5px;
+}
+.contentbox ul li:last-child::after {
+  content:"";
+}
+.icons {float:right;}
+.printIcon {border:1px solid rgb(201, 199, 199); border-radius: 70%; width:50px; height:50px; margin-right: 5px;}
+.linkIcon {border:1px solid rgb(201, 199, 199); border-radius: 70%; width:50px; height:50px;}
+.contentTitleInfo {border-bottom:1px solid gray; padding: 30px 0px; height:140px;}
+.checkIcons{ display: inline-block; vertical-align: top; line-height: 75px; margin-right: 10px;}
+.titleName{display:inline-block; vertical-align:top; margin-right: 20px;}
+.titleName h3{line-height: 75px;}
+.simpleInfo{display: inline-block; width:600px; line-height: 25px; height: 100%;}
+.simpleInfo p {font-size:14px;}
+.moreInfo { padding:50px 0px 100px 0px;}
+.moreInfo h3 {font-weight: bold; color:rgb(2, 2, 83);}
+.openInfoWho {margin-bottom: 20px;}
+.before li:nth-child(-n+3):before {
+  position: absolute;
+  left:660px;
+  content:"▪";
+}
+.openInfo ul li {line-height:30px;}
+.anotherlist li{margin-left: 15px; color:gray;}
+.anotherlist li:nth-child(-n+3):before{
+  position: absolute;
+  left:680px;
+  content:"-"
+}
+.wholist {
+  margin-bottom: 45px;
+  padding:0px 0px 0px 5px;
+  }
+.infoHow {margin-bottom:20px;}
+.howList{
+  padding:0px 0px 0px 15px;
+}
+.howList li::before {
+  position: absolute;
+  left:670px;
+  content:"▪"
+}
+.openInfoGo { padding:15px; width:200px; text-align: center; margin-top: 30px; margin-left: 350px; color:white; background:navy;}
+.openInfoGo:hover {text-decoration: underline;}
+.contentSatis {
+  display:grid; 
+  grid-template-areas: "header header"
+                       "   a     c   ";
+}
+.item1 {
+      grid-area:header;
+      border:1px solid gray;
+      padding: 15px 25px;
+      line-height:30px;
+      height:60px;
+}
+.item1 img { height : 30px; float:left;}
+.item1 ul {width:600px;}
+.item1 ul li {display: inline-block;}
+.item1 ul li:nth-child(-2n+5) {font-weight: bold; color:navy;}
+.item1 ul li:nth-child(-2n+5)::after{
+  content:"|"; float:right; color:gray; margin-left: 10px;
+}
+.item1 ul li:nth-child(-2n+6) {margin-right:10px;}
+.item2 {
+    grid-area:a;
+    border-left:1px solid gray;
+    border-bottom:1px solid gray;
+    padding:30px;
+    background-color: rgb(238, 238, 238);
+}
+.eval {
+  margin:15px 0px;
+}
+.evalright {
+  float:right;
+}
+.item2 .input{
+  height: 35px;
+  width:600px;
+}
+.submit {height: 40px;}
+.commenttext {
+  margin: 15px 0px;
+}
+.item3 {
+  grid-area:c;
+  border-left:1px solid gray;
+  border-bottom:1px solid gray;
+  border-right:1px solid gray;
+  padding: 40px 10px;
+}
+.item3 img {
+  width:100px; height:100px; float:right;
+}
+.partnership {  width:100%; line-height: 90px; margin-bottom:20px; overflow: hidden;}
+.menuHeader{text-align:center; border-top-left-radius: 30%; font-weight:bold; position:absolute; width:300px; left:-1px; height:139px; top:-140px; z-index: 1000; background-color:navy; line-height: 80px;}
+.menuHeader h2 {margin-top:20px; color:white;}
+.menusection li{border-bottom:1px solid gray; font-size: 20px; padding: 30px 0px 30px 0px;}
+.eachMenu a:hover {text-decoration: underline; color:navy;}
+.h li:hover { text-decoration: underline; color:navy;}
+.sideAndMain::after {
+  content:"";
+  display:table;
+  clear: both;
+}
+.partnership li{ 
+  float:right;
+}
+.h li {
+  border:none;
+  background-color:rgb(214, 214, 214);
+}
+.h li::before {content:"▪"}
